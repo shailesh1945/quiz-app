@@ -64,14 +64,14 @@ cd frontend
 npm install
 npm run dev
 ```
-Frontend runs on -> http://localhost:5174
+Frontend runs on -> http://localhost:5173
 ---
 ### Running the Application
 
 - Start MySQL server and ensure DB is created (quizdb).
 - Run the Spring Boot backend (mvn spring-boot:run).
 - Run the React frontend (npm run dev).
-- Open http://localhost:5174 in your browser.
+- Open http://localhost:5173 in your browser.
 ---
 ### Prioject Structure
 ```bash
