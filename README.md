@@ -119,7 +119,8 @@ quiz-app/
 ```
 ---
 ### Assumptions & Design Choices
-1)Only one quiz is available (can be extended for multiple).
-2)User authentication is not included (focus on quiz flow).
-3)Backend validates answers and calculates score.
-4)Clean separation between frontend & backend for scalability.
+- Only one quiz is available (can be extended for multiple).
+- User authentication is not included (focus on quiz flow).
+- Backend validates answers and calculates score.
+- Clean separation between frontend & backend for scalability.
+---
