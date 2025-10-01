@@ -68,10 +68,10 @@ Frontend runs on -> http://localhost:5174
 ---
 ### Running the Application
 
-Start MySQL server and ensure DB is created (quizdb).
-Run the Spring Boot backend (mvn spring-boot:run).
-Run the React frontend (npm run dev).
-Open http://localhost:5174 in your browser.
+- Start MySQL server and ensure DB is created (quizdb).
+- Run the Spring Boot backend (mvn spring-boot:run).
+- Run the React frontend (npm run dev).
+- Open http://localhost:5174 in your browser.
 ---
 ### Prioject Structure
 ```bash
@@ -117,3 +117,9 @@ quiz-app/
 │
 └── README.md # Main project documentation
 ```
+---
+### Assumptions & Design Choices
+1)Only one quiz is available (can be extended for multiple).
+2)User authentication is not included (focus on quiz flow).
+3)Backend validates answers and calculates score.
+4)Clean separation between frontend & backend for scalability.
